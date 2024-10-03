@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileston 4: Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 >Mileston 4: Editable Resume Builder By HK!</h1>
+    <form id="resumeForm">
+        <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name?" required>
+<br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  required>
+
+        <br><br>
+        <label for="phone">phone:</label>
+        <input type="text" id="phone" name="phone"  required>
+<br><br>
+       <h2>Education</h2>
+       <label for="education">Education:</label>
+       <input type="text" id="education" name="education" placeholder="Enter your qualification?" required>
+       <br><br>
+
+       <h2>Experience</h2>
+       <label for="experience">Experience:</label>
+       <input type="text" id="experience" name="experience" placeholder="Enter your expertise?" required>
+       <br><br>
+
+       <h2>Skill</h2>
+       <label for="skills">Skills:</label>
+       <input type="text" id="skills" name="skills" placeholder="Enter your capability?" required>
+       <br><br>
+
+
+       <h2>Description</h2>
+       <label for="description">Description:</label>
+       <input type="text" id="description" name="description" placeholder="kuch apny bary me?" required>
+       <br><br>
+
+       <button type="submit">Generate Resume</button>
+
+    </form>
+ <div id="resumeOutput"></div>
+ <script src="script.js"></script>
+</body>
+</html>

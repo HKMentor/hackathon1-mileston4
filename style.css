@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #ede7eb; /* Background color */
+    margin: 0;
+    padding: 20px; /* Padding around the body */
+}
+h1 {
+    text-align: center; /* Text ko center me align karna */
+    margin: 20px 0; /* Heading ke upar aur neeche space dena */
+    font-size: 24px; /* Font size set karna */
+    color: #030303; /* Text color */
+}
+
+
+h2 {
+    color: #110202; /* Heading color */
+}
+
+form {
+    background-color: #f97dd4; /* Form background color */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners for the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+    max-width: 600px; /* Maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ce1192; /* Border color */
+    border-radius: 5px; /* Rounded corners for input fields */
+    margin-bottom: 15px; /* Space below input fields */
+}
+
+button {
+    background-color: #ca1098; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the button */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+#resumeOutput {
+    margin: 20px auto; /* Center the output with auto margin */
+    padding: 20px; /* Padding inside the resume output */
+    background-color:#f97dd4; /* Background color for the output */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Deeper shadow for a more elevated look */
+    max-width: 600px; /* Set a maximum width for better layout */
+    text-align: left; /* Align text to the left */
+}
